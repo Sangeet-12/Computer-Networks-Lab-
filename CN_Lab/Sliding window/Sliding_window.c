@@ -24,7 +24,7 @@ int main() {
         if (end >= n)
             end = n - 1;
 
-        printf("\n--- Round %d ---\n", round++);
+        printf("\nRound %d\n", round++);
         printf("Sender Window: %d to %d\n", base, end);
 
         for (int i = base; i <= end; i++) {
@@ -51,7 +51,7 @@ int main() {
 
         if (base < n && base <= end) {
             printf("\nTIMEOUT OCCURRED!\n");
-            printf("Go-Back-N: Retransmitting from Frame %d\n", base);
+            printf("Retransmitting from Frame %d\n", base);
         } else if (base < n) {
             printf("\nWindow slides to Frame %d\n", base);
         }
