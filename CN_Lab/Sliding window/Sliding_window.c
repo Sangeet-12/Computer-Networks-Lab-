@@ -5,7 +5,7 @@ int main() {
     int base = 0, expected = 0;
     int lost = 0, round = 1;
 
-    printf("GO-BACK-N SLIDING WINDOW PROTOCOL\n");
+    printf("SLIDING WINDOW PROTOCOL\n");
 
     printf("Enter total number of frames: ");
     if (scanf("%d", &n) != 1) return 1;
@@ -57,8 +57,6 @@ int main() {
         }
     }
 
-    printf("\nAll frames transmitted successfully!\n");
-    printf("Transmission Completed.\n");
 
     return 0;
 }
