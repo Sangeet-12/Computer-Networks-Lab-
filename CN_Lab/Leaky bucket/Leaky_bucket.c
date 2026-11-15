@@ -84,7 +84,6 @@ int main() {
                dropped, tokens);
     }
 
-    printf("\nSimulation completed successfully.\n");
 
     return 0;
 }
