@@ -75,7 +75,6 @@ int main(void) {
         }
     }
 
-    printf("\nRouting tables updated successfully.\n");
 
     return 0;
 }
