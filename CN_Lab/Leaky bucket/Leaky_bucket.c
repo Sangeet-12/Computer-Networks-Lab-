@@ -11,8 +11,6 @@ int main() {
     int stored = 0, tokens = 0;
     int i, sent, dropped;
 
-    printf("EXPERIMENT 9: TRAFFIC SHAPING ALGORITHMS\n");
-
     printf("Enter bucket capacity: ");
     if (scanf("%d", &capacity) != 1) return 1;
 
